@@ -1,0 +1,22 @@
+# Creating a set
+fruits = {"apple", "banana", "cherry", "apple"}  
+print(fruits)  # Output: {'apple', 'banana', 'cherry'} (no duplicates)
+
+# Adding an element
+fruits.add("orange")
+print(fruits)
+
+# Removing an element
+fruits.remove("banana")
+print(fruits)
+
+# Checking membership
+print("apple" in fruits)  # True
+
+# Set operations
+set1 = {1, 2, 3}
+set2 = {3, 4, 5}
+
+print(set1.union(set2))        # {1, 2, 3, 4, 5}
+print(set1.intersection(set2)) # {3}
+print(set1.difference(set2))   # {1, 2}
